@@ -1,0 +1,26 @@
+{
+  "query_type": "query_5_human_irreplaceability",
+  "generated_at": "2026-05-11T13:54:46.492402",
+  "results": [
+    {
+      "pattern_id": "DP3",
+      "text": "Concept Node: Radical Disembodiment. Type: Degrading_Pattern. Description: AI severs the intellect from physical space and time, training students to believe rigor requires speaking from an objective, disembodied void rather than localized reality.",
+      "average_similarity_to_outcomes": 0.513
+    },
+    {
+      "pattern_id": "DP1",
+      "text": "Concept Node: The Eradication of the Verb. Type: Degrading_Pattern. Description: AI substitutes the process (the verb: thinking, struggling, observing) with the product (the noun: the essay, the answer), treating education as a delivery mechanism for finished artifacts.",
+      "average_similarity_to_outcomes": 0.492
+    },
+    {
+      "pattern_id": "DP4",
+      "text": "Concept Node: Temporal Flattening & Commodification. Type: Degrading_Pattern. Description: AI eradicates the natural incubation of thought (latency) and treats human interaction as a frictionless commodity. It replaces the visceral, time-bound weight of human care with instantaneous generation, accelerating the breakdown of digital relational reality.",
+      "average_similarity_to_outcomes": 0.474
+    },
+    {
+      "pattern_id": "DP2",
+      "text": "Concept Node: Counterfeiting of Human Signals. Type: Degrading_Pattern. Description: AI aggressively commodifies and synthesizes the exact signals we use to prove humanity, forcing an arms race where digital authenticity is constantly being faked.",
+      "average_similarity_to_outcomes": 0.423
+    }
+  ]
+}

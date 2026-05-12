@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(conda run *)",
+      "mcp__claude_ai_Supabase__list_projects",
+      "Bash(grep -v \"^$\")",
+      "Bash(supabase --version)",
+      "Bash(psql --version)"
+    ]
+  }
+}

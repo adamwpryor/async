@@ -1,0 +1,319 @@
+{
+  "query_type": "query_2_polarity_inversion",
+  "generated_at": "2026-05-11T13:54:46.430026",
+  "results": [
+    {
+      "degrading_app_id": "app_O1_DP1",
+      "degrading_outcome": "O1",
+      "degrading_pattern": "DP1",
+      "cross_outcome_matches": [
+        {
+          "optimizing_app_id": "app_O2_OP1",
+          "optimizing_outcome": "O2",
+          "similarity": 0.568
+        }
+      ]
+    },
+    {
+      "degrading_app_id": "app_O1_DP2",
+      "degrading_outcome": "O1",
+      "degrading_pattern": "DP2",
+      "cross_outcome_matches": [
+        {
+          "optimizing_app_id": "app_O4_OP1",
+          "optimizing_outcome": "O4",
+          "similarity": 0.62
+        },
+        {
+          "optimizing_app_id": "app_O2_OP1",
+          "optimizing_outcome": "O2",
+          "similarity": 0.608
+        }
+      ]
+    },
+    {
+      "degrading_app_id": "app_O1_DP3",
+      "degrading_outcome": "O1",
+      "degrading_pattern": "DP3",
+      "cross_outcome_matches": [
+        {
+          "optimizing_app_id": "app_O3_OP2",
+          "optimizing_outcome": "O3",
+          "similarity": 0.558
+        }
+      ]
+    },
+    {
+      "degrading_app_id": "app_O1_DP4",
+      "degrading_outcome": "O1",
+      "degrading_pattern": "DP4",
+      "cross_outcome_matches": [
+        {
+          "optimizing_app_id": "app_O3_OP4",
+          "optimizing_outcome": "O3",
+          "similarity": 0.547
+        },
+        {
+          "optimizing_app_id": "app_O2_OP4",
+          "optimizing_outcome": "O2",
+          "similarity": 0.537
+        },
+        {
+          "optimizing_app_id": "app_O5_OP4",
+          "optimizing_outcome": "O5",
+          "similarity": 0.527
+        }
+      ]
+    },
+    {
+      "degrading_app_id": "app_O2_DP1",
+      "degrading_outcome": "O2",
+      "degrading_pattern": "DP1",
+      "cross_outcome_matches": [
+        {
+          "optimizing_app_id": "app_O1_OP1",
+          "optimizing_outcome": "O1",
+          "similarity": 0.604
+        }
+      ]
+    },
+    {
+      "degrading_app_id": "app_O2_DP2",
+      "degrading_outcome": "O2",
+      "degrading_pattern": "DP2",
+      "cross_outcome_matches": [
+        {
+          "optimizing_app_id": "app_O1_OP1",
+          "optimizing_outcome": "O1",
+          "similarity": 0.611
+        }
+      ]
+    },
+    {
+      "degrading_app_id": "app_O2_DP3",
+      "degrading_outcome": "O2",
+      "degrading_pattern": "DP3",
+      "cross_outcome_matches": [
+        {
+          "optimizing_app_id": "app_O3_OP1",
+          "optimizing_outcome": "O3",
+          "similarity": 0.533
+        }
+      ]
+    },
+    {
+      "degrading_app_id": "app_O2_DP4",
+      "degrading_outcome": "O2",
+      "degrading_pattern": "DP4",
+      "cross_outcome_matches": [
+        {
+          "optimizing_app_id": "app_O3_OP4",
+          "optimizing_outcome": "O3",
+          "similarity": 0.605
+        }
+      ]
+    },
+    {
+      "degrading_app_id": "app_O3_DP1",
+      "degrading_outcome": "O3",
+      "degrading_pattern": "DP1",
+      "cross_outcome_matches": [
+        {
+          "optimizing_app_id": "app_O2_OP1",
+          "optimizing_outcome": "O2",
+          "similarity": 0.517
+        }
+      ]
+    },
+    {
+      "degrading_app_id": "app_O3_DP2",
+      "degrading_outcome": "O3",
+      "degrading_pattern": "DP2",
+      "cross_outcome_matches": [
+        {
+          "optimizing_app_id": "app_O4_OP1",
+          "optimizing_outcome": "O4",
+          "similarity": 0.507
+        }
+      ]
+    },
+    {
+      "degrading_app_id": "app_O3_DP3",
+      "degrading_outcome": "O3",
+      "degrading_pattern": "DP3",
+      "cross_outcome_matches": [
+        {
+          "optimizing_app_id": "app_O2_OP4",
+          "optimizing_outcome": "O2",
+          "similarity": 0.53
+        }
+      ]
+    },
+    {
+      "degrading_app_id": "app_O3_DP4",
+      "degrading_outcome": "O3",
+      "degrading_pattern": "DP4",
+      "cross_outcome_matches": [
+        {
+          "optimizing_app_id": "app_O2_OP4",
+          "optimizing_outcome": "O2",
+          "similarity": 0.487
+        }
+      ]
+    },
+    {
+      "degrading_app_id": "app_O4_DP1",
+      "degrading_outcome": "O4",
+      "degrading_pattern": "DP1",
+      "cross_outcome_matches": [
+        {
+          "optimizing_app_id": "app_O2_OP3",
+          "optimizing_outcome": "O2",
+          "similarity": 0.569
+        }
+      ]
+    },
+    {
+      "degrading_app_id": "app_O4_DP2",
+      "degrading_outcome": "O4",
+      "degrading_pattern": "DP2",
+      "cross_outcome_matches": [
+        {
+          "optimizing_app_id": "app_O1_OP1",
+          "optimizing_outcome": "O1",
+          "similarity": 0.657
+        }
+      ]
+    },
+    {
+      "degrading_app_id": "app_O4_DP3",
+      "degrading_outcome": "O4",
+      "degrading_pattern": "DP3",
+      "cross_outcome_matches": [
+        {
+          "optimizing_app_id": "app_O3_OP2",
+          "optimizing_outcome": "O3",
+          "similarity": 0.529
+        }
+      ]
+    },
+    {
+      "degrading_app_id": "app_O4_DP4",
+      "degrading_outcome": "O4",
+      "degrading_pattern": "DP4",
+      "cross_outcome_matches": [
+        {
+          "optimizing_app_id": "app_O3_OP4",
+          "optimizing_outcome": "O3",
+          "similarity": 0.555
+        }
+      ]
+    },
+    {
+      "degrading_app_id": "app_O5_DP1",
+      "degrading_outcome": "O5",
+      "degrading_pattern": "DP1",
+      "cross_outcome_matches": [
+        {
+          "optimizing_app_id": "app_O1_OP3",
+          "optimizing_outcome": "O1",
+          "similarity": 0.548
+        }
+      ]
+    },
+    {
+      "degrading_app_id": "app_O5_DP2",
+      "degrading_outcome": "O5",
+      "degrading_pattern": "DP2",
+      "cross_outcome_matches": [
+        {
+          "optimizing_app_id": "app_O4_OP1",
+          "optimizing_outcome": "O4",
+          "similarity": 0.578
+        },
+        {
+          "optimizing_app_id": "app_O6_OP1",
+          "optimizing_outcome": "O6",
+          "similarity": 0.557
+        }
+      ]
+    },
+    {
+      "degrading_app_id": "app_O5_DP3",
+      "degrading_outcome": "O5",
+      "degrading_pattern": "DP3",
+      "cross_outcome_matches": [
+        {
+          "optimizing_app_id": "app_O2_OP2",
+          "optimizing_outcome": "O2",
+          "similarity": 0.562
+        }
+      ]
+    },
+    {
+      "degrading_app_id": "app_O5_DP4",
+      "degrading_outcome": "O5",
+      "degrading_pattern": "DP4",
+      "cross_outcome_matches": [
+        {
+          "optimizing_app_id": "app_O2_OP4",
+          "optimizing_outcome": "O2",
+          "similarity": 0.577
+        }
+      ]
+    },
+    {
+      "degrading_app_id": "app_O6_DP1",
+      "degrading_outcome": "O6",
+      "degrading_pattern": "DP1",
+      "cross_outcome_matches": [
+        {
+          "optimizing_app_id": "app_O4_OP4",
+          "optimizing_outcome": "O4",
+          "similarity": 0.545
+        }
+      ]
+    },
+    {
+      "degrading_app_id": "app_O6_DP2",
+      "degrading_outcome": "O6",
+      "degrading_pattern": "DP2",
+      "cross_outcome_matches": [
+        {
+          "optimizing_app_id": "app_O1_OP1",
+          "optimizing_outcome": "O1",
+          "similarity": 0.553
+        }
+      ]
+    },
+    {
+      "degrading_app_id": "app_O6_DP3",
+      "degrading_outcome": "O6",
+      "degrading_pattern": "DP3",
+      "cross_outcome_matches": [
+        {
+          "optimizing_app_id": "app_O5_OP1",
+          "optimizing_outcome": "O5",
+          "similarity": 0.528
+        },
+        {
+          "optimizing_app_id": "app_O2_OP4",
+          "optimizing_outcome": "O2",
+          "similarity": 0.52
+        }
+      ]
+    },
+    {
+      "degrading_app_id": "app_O6_DP4",
+      "degrading_outcome": "O6",
+      "degrading_pattern": "DP4",
+      "cross_outcome_matches": [
+        {
+          "optimizing_app_id": "app_O2_OP4",
+          "optimizing_outcome": "O2",
+          "similarity": 0.601
+        }
+      ]
+    }
+  ]
+}

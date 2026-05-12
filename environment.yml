@@ -1,0 +1,19 @@
+name: async-vecdb
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - gitpython
+  - scikit-learn
+  - numpy
+  - requests
+  - pip
+  - pip:
+      - supabase
+      - sentence-transformers
+      - transformers
+      - bitsandbytes
+      - accelerate
+      - python-json-logger
+      - google-genai

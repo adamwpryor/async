@@ -1,0 +1,48 @@
+{
+  "query_type": "query_1_gap_detection",
+  "generated_at": "2026-05-11T13:54:46.411122",
+  "results": [
+    {
+      "node_a": "DP1",
+      "node_b": "DP3",
+      "label_a": "Concept Node: The Eradication of the Verb. Type: Degrading_Pattern. Description: AI substitutes the process (the verb: thinking, struggling, observing) with the product (the noun: the essay, the answer), treating education as a delivery mechanism for finished artifacts.",
+      "label_b": "Concept Node: Radical Disembodiment. Type: Degrading_Pattern. Description: AI severs the intellect from physical space and time, training students to believe rigor requires speaking from an objective, disembodied void rather than localized reality.",
+      "cosine_similarity": 0.733
+    },
+    {
+      "node_a": "DP2",
+      "node_b": "OP1",
+      "label_a": "Concept Node: Counterfeiting of Human Signals. Type: Degrading_Pattern. Description: AI aggressively commodifies and synthesizes the exact signals we use to prove humanity, forcing an arms race where digital authenticity is constantly being faked.",
+      "label_b": "Concept Node: Adversarial Appropriation. Type: Optimizing_Pattern. Description: Weaponizing the tool\u2019s capabilities against its own baseline. Teaching students to act as adversarial supervisors: commanding the AI to build the structural foundation, then explicitly identifying and attacking the spaces where its reasoning becomes generic to create space for human insight.",
+      "cosine_similarity": 0.691
+    },
+    {
+      "node_a": "DP4",
+      "node_b": "OP4",
+      "label_a": "Concept Node: Temporal Flattening & Commodification. Type: Degrading_Pattern. Description: AI eradicates the natural incubation of thought (latency) and treats human interaction as a frictionless commodity. It replaces the visceral, time-bound weight of human care with instantaneous generation, accelerating the breakdown of digital relational reality.",
+      "label_b": "Concept Node: The Enactment of Care. Type: Optimizing_Pattern. Description: Because physical presence cannot default to care in the digital space, the asynchronous timeline is utilized to deliberately enact it. The format\u2019s expanded temporal dimension\u2014bridging disparate institutions and time zones\u2014is used to actively assign ethical and emotional weight to others' ideas, resisting the commodification of the person.",
+      "cosine_similarity": 0.685
+    },
+    {
+      "node_a": "DP3",
+      "node_b": "OP1",
+      "label_a": "Concept Node: Radical Disembodiment. Type: Degrading_Pattern. Description: AI severs the intellect from physical space and time, training students to believe rigor requires speaking from an objective, disembodied void rather than localized reality.",
+      "label_b": "Concept Node: Adversarial Appropriation. Type: Optimizing_Pattern. Description: Weaponizing the tool\u2019s capabilities against its own baseline. Teaching students to act as adversarial supervisors: commanding the AI to build the structural foundation, then explicitly identifying and attacking the spaces where its reasoning becomes generic to create space for human insight.",
+      "cosine_similarity": 0.682
+    },
+    {
+      "node_a": "OP1",
+      "node_b": "OP2",
+      "label_a": "Concept Node: Adversarial Appropriation. Type: Optimizing_Pattern. Description: Weaponizing the tool\u2019s capabilities against its own baseline. Teaching students to act as adversarial supervisors: commanding the AI to build the structural foundation, then explicitly identifying and attacking the spaces where its reasoning becomes generic to create space for human insight.",
+      "label_b": "Concept Node: Simultaneous Constraint Formalization. Type: Optimizing_Pattern. Description: Mastering the intersection of human focal depth and artificial omnipresence. The AI holds all rules, theories, and constraints simultaneously in perfect suspension, while the human acts as the active subject, providing the singular, localized 'touching' that anchors the abstract matrix to a tangible reality.",
+      "cosine_similarity": 0.676
+    },
+    {
+      "node_a": "O2",
+      "node_b": "O3",
+      "label_a": "Concept Node: Embracing Spontaneity. Type: Outcome. Description: The deliberate injection of unpredictable, idiosyncratic, and unoptimized human emotion or whim into digital interactions to counter hyper-polished communication.",
+      "label_b": "Concept Node: Modality Disruption. Type: Outcome. Description: Purposefully breaking expected, uniform digital interface patterns by switching mediums to unmistakably signal human presence.",
+      "cosine_similarity": 0.666
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "query_type": "query_4_seventh_outcome",
+  "generated_at": "2026-05-11T15:36:04.458029",
+  "results": [
+    {
+      "id": "node_OP4",
+      "text": "Concept Node: The Enactment of Care. Type: Optimizing_Pattern. Description: Because physical presence cannot default to care in the digital space, the asynchronous timeline is utilized to deliberately enact it. The format\u2019s expanded temporal dimension\u2014bridging disparate institutions and time zones\u2014is used to actively assign ethical and emotional weight to others' ideas, resisting the commodification of the person.",
+      "similarity_to_outcome_centroid": 0.867
+    },
+    {
+      "id": "node_OP3",
+      "text": "Concept Node: Forensic Pedagogy. Type: Optimizing_Pattern. Description: Shifting the locus of evaluation entirely away from the final product and toward the cognitive exhaust. Grading the messy version histories, raw voice memos, and documented friction to demand undeniable proof that an active human subject was present and sweating.",
+      "similarity_to_outcome_centroid": 0.862
+    },
+    {
+      "id": "node_DP3",
+      "text": "Concept Node: Radical Disembodiment. Type: Degrading_Pattern. Description: AI severs the intellect from physical space and time, training students to believe rigor requires speaking from an objective, disembodied void rather than localized reality.",
+      "similarity_to_outcome_centroid": 0.847
+    },
+    {
+      "id": "node_DP1",
+      "text": "Concept Node: The Eradication of the Verb. Type: Degrading_Pattern. Description: AI substitutes the process (the verb: thinking, struggling, observing) with the product (the noun: the essay, the answer), treating education as a delivery mechanism for finished artifacts.",
+      "similarity_to_outcome_centroid": 0.845
+    },
+    {
+      "id": "node_DP4",
+      "text": "Concept Node: Temporal Flattening & Commodification. Type: Degrading_Pattern. Description: AI eradicates the natural incubation of thought (latency) and treats human interaction as a frictionless commodity. It replaces the visceral, time-bound weight of human care with instantaneous generation, accelerating the breakdown of digital relational reality.",
+      "similarity_to_outcome_centroid": 0.845
+    },
+    {
+      "id": "node_OP1",
+      "text": "Concept Node: Adversarial Appropriation. Type: Optimizing_Pattern. Description: Weaponizing the tool\u2019s capabilities against its own baseline. Teaching students to act as adversarial supervisors: commanding the AI to build the structural foundation, then explicitly identifying and attacking the spaces where its reasoning becomes generic to create space for human insight.",
+      "similarity_to_outcome_centroid": 0.844
+    },
+    {
+      "id": "node_OP2",
+      "text": "Concept Node: Simultaneous Constraint Formalization. Type: Optimizing_Pattern. Description: Mastering the intersection of human focal depth and artificial omnipresence. The AI holds all rules, theories, and constraints simultaneously in perfect suspension, while the human acts as the active subject, providing the singular, localized 'touching' that anchors the abstract matrix to a tangible reality.",
+      "similarity_to_outcome_centroid": 0.834
+    },
+    {
+      "id": "node_DP2",
+      "text": "Concept Node: Counterfeiting of Human Signals. Type: Degrading_Pattern. Description: AI aggressively commodifies and synthesizes the exact signals we use to prove humanity, forcing an arms race where digital authenticity is constantly being faked.",
+      "similarity_to_outcome_centroid": 0.831
+    }
+  ]
+}

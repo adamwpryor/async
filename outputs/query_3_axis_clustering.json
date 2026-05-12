@@ -1,0 +1,134 @@
+{
+  "query_type": "query_3_axis_clustering",
+  "generated_at": "2026-05-11T13:54:46.467643",
+  "results": {
+    "Cluster_0": [
+      {
+        "id": "app_O4_DP1",
+        "text": "Learning Outcome: Visible Cognitive Struggle (The \"Messy Middle\"). Degraded by DP1 Eradication of Verb: Jumps straight to the polished 'Aha!' moment, completely hiding the millions of hidden parameter calculations that simulate the conclusion.",
+        "pattern": "DP1"
+      },
+      {
+        "id": "app_O4_DP3",
+        "text": "Learning Outcome: Visible Cognitive Struggle (The \"Messy Middle\"). Degraded by DP3 Radical Disembodiment: Cognitive struggle in humans is often somatic (stress, pacing, frustration); AI presents a cleanly packaged, sterile version of uncertainty completely detached from human stakes.",
+        "pattern": "DP3"
+      },
+      {
+        "id": "app_O4_DP4",
+        "text": "Learning Outcome: Visible Cognitive Struggle (The \"Messy Middle\"). Degraded by DP4 Temporal Flattening: The instant resolution of struggle removes the shared, across-time vulnerability that usually builds deep trust and camaraderie in a physical classroom.",
+        "pattern": "DP4"
+      }
+    ],
+    "Cluster_1": [
+      {
+        "id": "app_O1_DP1",
+        "text": "Learning Outcome: Deliberate Inefficiency (Friction). Degraded by DP1 Eradication of Verb: Bypasses the physical and cognitive friction of drafting entirely, allowing the student to teleport to the final draft without doing the work of formulation.",
+        "pattern": "DP1"
+      },
+      {
+        "id": "app_O3_DP1",
+        "text": "Learning Outcome: Modality Disruption. Degraded by DP1 Eradication of Verb: Allows the creation of multimedia (like a generated podcast or video) without the human acts of recording, framing, or speaking.",
+        "pattern": "DP1"
+      },
+      {
+        "id": "app_O3_DP3",
+        "text": "Learning Outcome: Modality Disruption. Degraded by DP3 Radical Disembodiment: The 'person' in the generated audio or video literally does not exist in physical space, turning a modality shift into just another disembodied digital file.",
+        "pattern": "DP3"
+      },
+      {
+        "id": "app_O3_DP4",
+        "text": "Learning Outcome: Modality Disruption. Degraded by DP4 Temporal Flattening: Turns video, audio, and imagery into just another flat, instantaneous commodity, stripping the medium of the labor time it usually signifies.",
+        "pattern": "DP4"
+      }
+    ],
+    "Cluster_2": [
+      {
+        "id": "app_O1_DP3",
+        "text": "Learning Outcome: Deliberate Inefficiency (Friction). Degraded by DP3 Radical Disembodiment: Removes the physical fatigue and time constraints of human creation, generating output at a frictionless, machine speed completely detached from a human body's limits.",
+        "pattern": "DP3"
+      },
+      {
+        "id": "app_O1_DP4",
+        "text": "Learning Outcome: Deliberate Inefficiency (Friction). Degraded by DP4 Temporal Flattening: Makes communication so instantaneous it commodifies the interaction, removing the waiting and simmering required to demonstrate deep, time-invested thought.",
+        "pattern": "DP4"
+      },
+      {
+        "id": "app_O2_DP1",
+        "text": "Learning Outcome: Embracing Spontaneity. Degraded by DP1 Eradication of Verb: Replaces the sudden, emotional spark of a genuine human reaction with calculated, probabilistic token generation.",
+        "pattern": "DP1"
+      },
+      {
+        "id": "app_O2_DP3",
+        "text": "Learning Outcome: Embracing Spontaneity. Degraded by DP3 Radical Disembodiment: Human spontaneity is usually triggered by physical state (tiredness, sudden inspiration, a shift in environment); AI generates randomness devoid of physical or emotional catalyst.",
+        "pattern": "DP3"
+      },
+      {
+        "id": "app_O2_DP4",
+        "text": "Learning Outcome: Embracing Spontaneity. Degraded by DP4 Temporal Flattening: Predictable text generation flattens the natural, unpredictable rhythms of when inspiration strikes across a longer time horizon.",
+        "pattern": "DP4"
+      },
+      {
+        "id": "app_O5_DP1",
+        "text": "Learning Outcome: Lived Context Anchoring. Degraded by DP1 Eradication of Verb: Replaces the active human verb of *observing* one's immediate surroundings with pulling from a generalized, historical text dataset.",
+        "pattern": "DP1"
+      },
+      {
+        "id": "app_O5_DP3",
+        "text": "Learning Outcome: Lived Context Anchoring. Degraded by DP3 Radical Disembodiment: The AI writes from a server farm, completely detaching the narrative from actual local geography, weather, or real-time logistical constraints.",
+        "pattern": "DP3"
+      },
+      {
+        "id": "app_O5_DP4",
+        "text": "Learning Outcome: Lived Context Anchoring. Degraded by DP4 Temporal Flattening: Strips away the immediate, time-bound reality of the person, commodifying their specific local context into a generic data point.",
+        "pattern": "DP4"
+      },
+      {
+        "id": "app_O6_DP1",
+        "text": "Learning Outcome: Relational Weaving (Accumulated Shared History). Degraded by DP1 Eradication of Verb: Bypasses the vital act of actively reading and empathizing with peers, replacing it with the generation of a summarizing response.",
+        "pattern": "DP1"
+      },
+      {
+        "id": "app_O6_DP3",
+        "text": "Learning Outcome: Relational Weaving (Accumulated Shared History). Degraded by DP3 Radical Disembodiment: Removes the social and emotional stakes from the interaction; the AI doesn't exist in the community and feels no social risk in its replies.",
+        "pattern": "DP3"
+      },
+      {
+        "id": "app_O6_DP4",
+        "text": "Learning Outcome: Relational Weaving (Accumulated Shared History). Degraded by DP4 Temporal Flattening: Replaces genuine, accumulated care for a peer's intellectual journey with algorithmic summarization, treating their historical contributions as cheap, instantly processed tokens.",
+        "pattern": "DP4"
+      }
+    ],
+    "Cluster_3": [
+      {
+        "id": "app_O1_DP2",
+        "text": "Learning Outcome: Deliberate Inefficiency (Friction). Degraded by DP2 Counterfeiting Signals: AI can be explicitly prompted to 'write with hesitations' or 'simulate a messy first draft,' faking the appearance of inefficiency.",
+        "pattern": "DP2"
+      },
+      {
+        "id": "app_O2_DP2",
+        "text": "Learning Outcome: Embracing Spontaneity. Degraded by DP2 Counterfeiting Signals: AI easily synthesizes faux-quirkiness, simulated 'hot takes,' or forced casualness, making genuine spontaneity harder to distinguish from algorithmic imitation.",
+        "pattern": "DP2"
+      },
+      {
+        "id": "app_O3_DP2",
+        "text": "Learning Outcome: Modality Disruption. Degraded by DP2 Counterfeiting Signals: Deepfakes and AI avatars cross the uncanny valley, providing highly realistic but entirely synthetic visual and auditory proofs of life.",
+        "pattern": "DP2"
+      },
+      {
+        "id": "app_O4_DP2",
+        "text": "Learning Outcome: Visible Cognitive Struggle (The \"Messy Middle\"). Degraded by DP2 Counterfeiting Signals: AI can be instructed to 'act confused' or 'show your work step-by-step,' simulating a fake intellectual journey that looks like human vulnerability.",
+        "pattern": "DP2"
+      },
+      {
+        "id": "app_O5_DP2",
+        "text": "Learning Outcome: Lived Context Anchoring. Degraded by DP2 Counterfeiting Signals: AI routinely hallucinates highly plausible but entirely fabricated personal anecdotes (e.g., 'On my walk today, I noticed...').",
+        "pattern": "DP2"
+      },
+      {
+        "id": "app_O6_DP2",
+        "text": "Learning Outcome: Relational Weaving (Accumulated Shared History). Degraded by DP2 Counterfeiting Signals: AI can scrape names and mimic a relational, affirming tone ('Great point, Sarah! I also think...'), creating the illusion of social cohesion.",
+        "pattern": "DP2"
+      }
+    ]
+  }
+}

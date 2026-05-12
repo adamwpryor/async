@@ -1,0 +1,42 @@
+{
+  "query_type": "query_7_narrative_bridging",
+  "generated_at": "2026-05-11T15:36:04.480931",
+  "results": [
+    {
+      "narrative_section": "intro",
+      "closest_node": "OP1",
+      "similarity": 0.772,
+      "flagged_as_gap": false
+    },
+    {
+      "narrative_section": "I",
+      "closest_node": "OP4",
+      "similarity": 0.812,
+      "flagged_as_gap": false
+    },
+    {
+      "narrative_section": "II",
+      "closest_node": "OP1",
+      "similarity": 0.828,
+      "flagged_as_gap": false
+    },
+    {
+      "narrative_section": "III",
+      "closest_node": "DP1",
+      "similarity": 0.842,
+      "flagged_as_gap": false
+    },
+    {
+      "narrative_section": "IV",
+      "closest_node": "OP2",
+      "similarity": 0.817,
+      "flagged_as_gap": false
+    },
+    {
+      "narrative_section": "V",
+      "closest_node": "DP4",
+      "similarity": 0.787,
+      "flagged_as_gap": false
+    }
+  ]
+}

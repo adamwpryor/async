@@ -1,0 +1,155 @@
+{
+    "graph": {
+        "metadata": {
+            "purpose": "Experimental memory and topological mapping of asynchronous pedagogy.",
+            "active_subject": "Human (The Touching / Care)",
+            "omnipresent_matrix": "AI (The Touched / Simultaneous Suspension)"
+        },
+        "nodes": [
+            {
+                "id": "O1",
+                "type": "Outcome",
+                "label": "Deliberate Inefficiency (Friction)"
+            },
+            {
+                "id": "O2",
+                "type": "Outcome",
+                "label": "Embracing Spontaneity"
+            },
+            {
+                "id": "O3",
+                "type": "Outcome",
+                "label": "Modality Disruption"
+            },
+            {
+                "id": "O4",
+                "type": "Outcome",
+                "label": "Visible Cognitive Struggle"
+            },
+            {
+                "id": "O5",
+                "type": "Outcome",
+                "label": "Lived Context Anchoring"
+            },
+            {
+                "id": "O6",
+                "type": "Outcome",
+                "label": "Relational Weaving"
+            },
+            {
+                "id": "DP1",
+                "type": "Degrading_Pattern",
+                "label": "The Eradication of the Verb"
+            },
+            {
+                "id": "DP2",
+                "type": "Degrading_Pattern",
+                "label": "Counterfeiting of Human Signals"
+            },
+            {
+                "id": "DP3",
+                "type": "Degrading_Pattern",
+                "label": "Radical Disembodiment"
+            },
+            {
+                "id": "DP4",
+                "type": "Degrading_Pattern",
+                "label": "Temporal Flattening & Commodification"
+            },
+            {
+                "id": "OP1",
+                "type": "Optimizing_Pattern",
+                "label": "Adversarial Appropriation"
+            },
+            {
+                "id": "OP2",
+                "type": "Optimizing_Pattern",
+                "label": "Simultaneous Constraint Formalization"
+            },
+            {
+                "id": "OP3",
+                "type": "Optimizing_Pattern",
+                "label": "Forensic Pedagogy"
+            },
+            {
+                "id": "OP4",
+                "type": "Optimizing_Pattern",
+                "label": "The Enactment of Care"
+            }
+        ],
+        "edges": [
+            {
+                "source": "O1",
+                "target": "DP1",
+                "relation": "DEGRADED_BY_BYPASSING",
+                "context": "Teleporting to final draft"
+            },
+            {
+                "source": "O1",
+                "target": "OP3",
+                "relation": "OPTIMIZED_BY_AUDITING",
+                "context": "Grading the exhaust of friction"
+            },
+            {
+                "source": "O2",
+                "target": "DP2",
+                "relation": "DEGRADED_BY_SYNTHESIS",
+                "context": "Faking quirky or spontaneous reactions"
+            },
+            {
+                "source": "O2",
+                "target": "OP1",
+                "relation": "OPTIMIZED_BY_REBELLION",
+                "context": "Using AI baseline as an anti-rubric"
+            },
+            {
+                "source": "O3",
+                "target": "DP3",
+                "relation": "DEGRADED_BY_DETACHMENT",
+                "context": "Synthetic avatars lacking physical space"
+            },
+            {
+                "source": "O3",
+                "target": "OP2",
+                "relation": "OPTIMIZED_BY_ANCHORING",
+                "context": "AI handles tech limits; human handles physical performance"
+            },
+            {
+                "source": "O4",
+                "target": "DP4",
+                "relation": "DEGRADED_BY_RESOLUTION",
+                "context": "Instant answers erase shared time-bound vulnerability"
+            },
+            {
+                "source": "O4",
+                "target": "OP3",
+                "relation": "OPTIMIZED_BY_TRACKING",
+                "context": "Version history of missteps"
+            },
+            {
+                "source": "O5",
+                "target": "DP3",
+                "relation": "DEGRADED_BY_DETACHMENT",
+                "context": "Generative text exists nowhere geolocated"
+            },
+            {
+                "source": "O5",
+                "target": "OP4",
+                "relation": "OPTIMIZED_BY_ANCHORING",
+                "context": "Sharing visceral physical reality across network"
+            },
+            {
+                "source": "O6",
+                "target": "DP4",
+                "relation": "DEGRADED_BY_COMMODIFICATION",
+                "context": "Treating peer history as cheap, instantly processed tokens"
+            },
+            {
+                "source": "O6",
+                "target": "OP4",
+                "relation": "OPTIMIZED_BY_ENACTING",
+                "context": "Withholding instant reply to prove retained memory of peer"
+            }
+        ]
+    }
+}
