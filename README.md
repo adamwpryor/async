@@ -13,6 +13,9 @@ By leveraging a native local embedding model (Qwen3-Embedding-8B) and a Supabase
 
 This repository is designed to be fully reproducible on your local machine using Supabase Local and Conda.
 
+> **💡 A Note for Windows Users & Pedagogy Professionals:** 
+> If you are new to the technical side of AI, you might notice these instructions use terminal commands built for Linux or macOS. In the open-source AI ecosystem, running local machine learning models (like downloading the Qwen3-8B model directly from Hugging Face) is significantly smoother and more stable on Linux architectures. Native Windows environments often cause intense friction with these libraries. If you are on a Windows machine, we highly recommend installing and using **WSL 2 (Windows Subsystem for Linux)** to run this project seamlessly.
+
 ### 1. Prerequisites
 - **Docker Desktop** (required to run the local Supabase vector database)
 - **Supabase CLI** (`npm install -g supabase` or via Homebrew/Scoop)
