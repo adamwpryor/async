@@ -41,10 +41,16 @@ Copy the example file and add your keys:
 cp .env.example .env
 ```
 Edit `.env` with your favorite text editor:
-- `HF_TOKEN`: Get a free token from HuggingFace to download the Qwen model.
 - `GOOGLE_API_KEY`: Get a free key from Google AI Studio (if you want to run the Google comparison).
 - `SUPABASE_URL`: Paste the `API URL` from step 2.
 - `SUPABASE_KEY`: Paste the `service_role key` from step 2.
+
+**HuggingFace Authentication:**
+To download the Qwen model, you need to authenticate your machine with HuggingFace. The safest and most permanent way to do this is via your terminal (rather than putting the token in your `.env` file):
+```bash
+pip install -U "huggingface_hub[cli]"
+huggingface-cli login
+```
 
 ### 4. Build the Environment
 Scaffold the required Python environment using the provided lockfile.

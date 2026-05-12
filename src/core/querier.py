@@ -256,6 +256,100 @@ class Querier:
             })
         self.save_result("query_7_narrative_bridging", results)
 
+    def query_8_centroid_distance(self) -> None:
+        """Runs Query 8: Centroid Distance.
+        Calculates the topological distance between the centroid of all
+        Degrading Patterns and the centroid of all Optimizing Patterns.
+        """
+        logger.info("Running Query 8: Centroid Distance (Apathy vs Empathy)...")
+        res_dps = self.supabase.table(self.table_name).select("*").eq("metadata->>node_type", "Degrading_Pattern").execute()
+        dps = res_dps.data
+        
+        res_ops = self.supabase.table(self.table_name).select("*").eq("metadata->>node_type", "Optimizing_Pattern").execute()
+        ops = res_ops.data
+        
+        if not dps or not ops:
+            return
+            
+        dp_embeddings = np.array([self.parse_embedding(d['embedding']) for d in dps])
+        op_embeddings = np.array([self.parse_embedding(o['embedding']) for o in ops])
+        
+        dp_centroid = np.mean(dp_embeddings, axis=0)
+        op_centroid = np.mean(op_embeddings, axis=0)
+        
+        distance = float(np.linalg.norm(dp_centroid - op_centroid))
+        sim = float(cosine_similarity([dp_centroid], [op_centroid])[0][0])
+        
+        results = {
+            "degrading_patterns_centroid_vector_shape": list(dp_centroid.shape),
+            "optimizing_patterns_centroid_vector_shape": list(op_centroid.shape),
+            "euclidean_distance": round(distance, 3),
+            "cosine_similarity": round(sim, 3),
+            "interpretation": "A lower cosine similarity indicates the model successfully separates the tension between degrading and optimizing pedagogy in the latent space."
+        }
+        self.save_result("query_8_centroid_distance", results)
+
+    def query_9_rag_precision(self) -> None:
+        """Runs Query 9: Pure RAG Precision.
+        Tests standard retrieval by embedding Provost-style questions
+        and retrieving the top 3 chunks.
+        """
+        logger.info("Running Query 9: Pure RAG Precision (Provost Questions)...")
+        
+        questions = [
+            "How do we prevent students from using AI to skip the friction of drafting?",
+            "What is adversarial appropriation?",
+            "How can we assess the process instead of just the final artifact?",
+            "Why does asynchronous learning feel so isolating when AI is involved?",
+            "How do we maintain human focal depth in an automated system?"
+        ]
+        
+        logger.info(f"Embedding {len(questions)} natural language queries natively...")
+        
+        if self.model_type == "qwen":
+            from sentence_transformers import SentenceTransformer
+            from transformers import BitsAndBytesConfig
+            quantization_config = BitsAndBytesConfig(load_in_4bit=True)
+            model = SentenceTransformer("Qwen/Qwen3-Embedding-8B", model_kwargs={"quantization_config": quantization_config}, trust_remote_code=True)
+            q_embeddings = model.encode(questions, show_progress_bar=False)[:, :1024].tolist()
+        else:
+            from google import genai
+            google_api_key = load_secure_key("GOOGLE_API_KEY")
+            client = genai.Client(api_key=google_api_key)
+            result = client.models.embed_content(
+                model="gemini-embedding-001",
+                contents=questions,
+                config={"task_type": "retrieval_query"}
+            )
+            q_embeddings = [emb.values[:768] for emb in result.embeddings]
+            
+        res = self.supabase.table(self.table_name).select("*").execute()
+        chunks = res.data
+        if not chunks:
+            return
+            
+        chunk_embeddings = np.array([self.parse_embedding(c['embedding']) for c in chunks])
+        q_embeddings_np = np.array(q_embeddings)
+        
+        sim_matrix = cosine_similarity(q_embeddings_np, chunk_embeddings)
+        
+        results = []
+        for i, q in enumerate(questions):
+            top_indices = np.argsort(sim_matrix[i])[-3:][::-1]
+            matches = []
+            for j in top_indices:
+                matches.append({
+                    "chunk_id": chunks[j]['chunk_id'],
+                    "text": chunks[j]['content'],
+                    "similarity": round(float(sim_matrix[i, j]), 3)
+                })
+            results.append({
+                "question": q,
+                "top_matches": matches
+            })
+            
+        self.save_result("query_9_rag_precision", results)
+
     def run_all(self) -> None:
         self.query_1_gap_detection()
         self.query_2_polarity_inversion()
@@ -264,4 +358,6 @@ class Querier:
         self.query_5_human_irreplaceability()
         self.query_6_optimizing_generalization()
         self.query_7_narrative_bridging()
-        logger.info(f"All queries completed for {self.model_type}!")
+        self.query_8_centroid_distance()
+        self.query_9_rag_precision()
+        logger.info(f"All {self.model_type.upper()} queries completed successfully!")
