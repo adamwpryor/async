@@ -1,0 +1,16 @@
+{
+  "query_type": "query_8_centroid_distance",
+  "model_type": "google",
+  "generated_at": "2026-05-12T12:27:24.722773",
+  "results": {
+    "degrading_patterns_centroid_vector_shape": [
+      768
+    ],
+    "optimizing_patterns_centroid_vector_shape": [
+      768
+    ],
+    "euclidean_distance": 0.228,
+    "cosine_similarity": 0.914,
+    "interpretation": "A lower cosine similarity indicates the model successfully separates the tension between degrading and optimizing pedagogy in the latent space."
+  }
+}

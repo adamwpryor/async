@@ -1,0 +1,107 @@
+{
+  "query_type": "query_9_rag_precision",
+  "model_type": "qwen",
+  "generated_at": "2026-05-12T12:27:15.295856",
+  "results": [
+    {
+      "question": "How do we prevent students from using AI to skip the friction of drafting?",
+      "top_matches": [
+        {
+          "chunk_id": "app_O1_DP1",
+          "text": "Learning Outcome: Deliberate Inefficiency (Friction). Degraded by DP1 Eradication of Verb: Bypasses the physical and cognitive friction of drafting entirely, allowing the student to teleport to the final draft without doing the work of formulation.",
+          "similarity": 0.675
+        },
+        {
+          "chunk_id": "app_O1_OP1",
+          "text": "Learning Outcome: Deliberate Inefficiency (Friction). Optimized by OP1 Adversarial Appropriation: Students generate a highly efficient but generic AI baseline draft, then are required to actively deconstruct it, manually introducing the necessary intellectual friction and nuance the AI smoothed over.",
+          "similarity": 0.669
+        },
+        {
+          "chunk_id": "app_O1_DP2",
+          "text": "Learning Outcome: Deliberate Inefficiency (Friction). Degraded by DP2 Counterfeiting Signals: AI can be explicitly prompted to 'write with hesitations' or 'simulate a messy first draft,' faking the appearance of inefficiency.",
+          "similarity": 0.643
+        }
+      ]
+    },
+    {
+      "question": "What is adversarial appropriation?",
+      "top_matches": [
+        {
+          "chunk_id": "edge_O2_OP1",
+          "text": "Embracing Spontaneity is OPTIMIZED BY REBELLION Adversarial Appropriation. Context: Using AI baseline as an anti-rubric.",
+          "similarity": 0.733
+        },
+        {
+          "chunk_id": "node_OP1",
+          "text": "Concept Node: Adversarial Appropriation. Type: Optimizing_Pattern. Description: Weaponizing the tool\u2019s capabilities against its own baseline. Teaching students to act as adversarial supervisors: commanding the AI to build the structural foundation, then explicitly identifying and attacking the spaces where its reasoning becomes generic to create space for human insight.",
+          "similarity": 0.666
+        },
+        {
+          "chunk_id": "node_DP2",
+          "text": "Concept Node: Counterfeiting of Human Signals. Type: Degrading_Pattern. Description: AI aggressively commodifies and synthesizes the exact signals we use to prove humanity, forcing an arms race where digital authenticity is constantly being faked.",
+          "similarity": 0.579
+        }
+      ]
+    },
+    {
+      "question": "How can we assess the process instead of just the final artifact?",
+      "top_matches": [
+        {
+          "chunk_id": "node_OP3",
+          "text": "Concept Node: Forensic Pedagogy. Type: Optimizing_Pattern. Description: Shifting the locus of evaluation entirely away from the final product and toward the cognitive exhaust. Grading the messy version histories, raw voice memos, and documented friction to demand undeniable proof that an active human subject was present and sweating.",
+          "similarity": 0.681
+        },
+        {
+          "chunk_id": "app_O1_OP3",
+          "text": "Learning Outcome: Deliberate Inefficiency (Friction). Optimized by OP3 Forensic Pedagogy: Grading focuses strictly on the artifacts of friction\u2014the annotated prompts, the discarded outlines, and the recorded reflections of where the student hit a wall\u2014rather than the polished final text.",
+          "similarity": 0.639
+        },
+        {
+          "chunk_id": "app_O4_OP3",
+          "text": "Learning Outcome: Visible Cognitive Struggle (The \"Messy Middle\"). Optimized by OP3 Forensic Pedagogy: The final assignment is not a polished answer, but a 'version history of thought,' grading the student's documented missteps, dead ends, and course corrections along the way.",
+          "similarity": 0.593
+        }
+      ]
+    },
+    {
+      "question": "Why does asynchronous learning feel so isolating when AI is involved?",
+      "top_matches": [
+        {
+          "chunk_id": "narrative_I",
+          "text": "Section I \u2014 The Inciting Incident: The Analog Signal in a Digital Void\n* **The Hook:** Start with Jason\u2019s post about the handwritten note. Why did this resonate so deeply? Because it explicitly framed \"humanizing digital communication\" not just as a teaching tactic, but as a potential *learning outcome* for students.\n* **The Philosophical Anchor:** Introduce Merleau-Ponty\u2019s  *Chiasm* \u2014the concept of the \"Touching and the Touched.\" Establish your guiding inquiry: in an asynchronous space where the fabric of relational reality is breaking down, how do we use the classroom to simulate presence and enact care? How do we locate the \"active subject\" (the touching) when the digital medium constantly commodifies the person?",
+          "similarity": 0.567
+        },
+        {
+          "chunk_id": "narrative_II",
+          "text": "Section II \u2014 The Trap of the Generic (Hitting the Algorithmic Wall)\n* **The Setup:** Detail the initial attempt to use AI to brainstorm what the robots *can't* do in asynchronous classrooms. We established six core human signals (Deliberate Inefficiency, Spontaneity, Modality Disruption, Visible Struggle, Context Anchoring, Relational Weaving).\n* **The Failure:** Expose the AI's inherent regression to the mean. Explain how the machine immediately defaulted to standard ed-tech platitudes (e.g., \"AI is generic,\" \"AI lacks memory\").\n* **The Pivot:** Introduce  **Adversarial Appropriation** . Explain how you had to actively weaponize the AI's analytical clarity to expose its own banal reasoning, forcing the conversation past the surface-level critiques of automation.",
+          "similarity": 0.563
+        },
+        {
+          "chunk_id": "node_DP3",
+          "text": "Concept Node: Radical Disembodiment. Type: Degrading_Pattern. Description: AI severs the intellect from physical space and time, training students to believe rigor requires speaking from an objective, disembodied void rather than localized reality.",
+          "similarity": 0.561
+        }
+      ]
+    },
+    {
+      "question": "How do we maintain human focal depth in an automated system?",
+      "top_matches": [
+        {
+          "chunk_id": "node_OP2",
+          "text": "Concept Node: Simultaneous Constraint Formalization. Type: Optimizing_Pattern. Description: Mastering the intersection of human focal depth and artificial omnipresence. The AI holds all rules, theories, and constraints simultaneously in perfect suspension, while the human acts as the active subject, providing the singular, localized 'touching' that anchors the abstract matrix to a tangible reality.",
+          "similarity": 0.675
+        },
+        {
+          "chunk_id": "edge_O5_OP4",
+          "text": "Lived Context Anchoring is OPTIMIZED BY ANCHORING The Enactment of Care. Context: Sharing visceral physical reality across network.",
+          "similarity": 0.581
+        },
+        {
+          "chunk_id": "narrative_IV",
+          "text": "Section IV \u2014 The Breakthrough: Simultaneous Suspension vs. Focal Depth\n* **The Metaphor Correction:** Detail the moment you rejected the idea of AI as a mere \"transport layer.\"\n* **The Omnipresent Matrix:** AI holds all rules, theories, and constraints simultaneously present, but with absolute apathy. It has no active subject.\n* **The Human Imperative (The Allocation of Care):** The student\u2019s role is no longer comprehensive synthesis. Their role is focal depth\u2014acting as the ethical and emotional center of gravity, deciding what  *matters* , and introducing the \"touch\" of lived context and deliberate time (latency) into the machine's flattened, apathetic matrix.",
+          "similarity": 0.56
+        }
+      ]
+    }
+  ]
+}

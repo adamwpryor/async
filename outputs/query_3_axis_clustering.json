@@ -1,6 +1,7 @@
 {
   "query_type": "query_3_axis_clustering",
-  "generated_at": "2026-05-11T13:54:46.467643",
+  "model_type": "qwen",
+  "generated_at": "2026-05-12T12:26:17.423037",
   "results": {
     "Cluster_0": [
       {

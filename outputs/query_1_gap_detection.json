@@ -1,6 +1,7 @@
 {
   "query_type": "query_1_gap_detection",
-  "generated_at": "2026-05-11T13:54:46.411122",
+  "model_type": "qwen",
+  "generated_at": "2026-05-12T12:26:17.230000",
   "results": [
     {
       "node_a": "DP1",

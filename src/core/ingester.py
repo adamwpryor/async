@@ -20,11 +20,13 @@ class Ingester:
         self.metadatas: List[Dict[str, Any]] = []
         self.ids: List[str] = []
         
-        self.supabase_url = load_secure_key("SUPABASE_URL")
-        self.supabase_key = load_secure_key("SUPABASE_KEY")
+        self.supabase_url = load_secure_key("SUPABASE_ASYNC_URL")
+        self.supabase_key = load_secure_key("SUPABASE_ASYNC_KEY")
         self.supabase: Client = create_client(self.supabase_url, self.supabase_key)
         
         if self.model_type == "qwen":
+            import os
+            os.environ["HF_TOKEN"] = load_secure_key("HF_TOKEN_READ_ONLY")
             self.table_name = "chunks"
             self.truncate_dim = 1024
             logger.info("Loading Qwen3-8B Model in 4-bit...")

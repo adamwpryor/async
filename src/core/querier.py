@@ -17,8 +17,8 @@ class Querier:
     def __init__(self, model_type: str):
         self.model_type = model_type
         
-        self.supabase_url = load_secure_key("SUPABASE_URL")
-        self.supabase_key = load_secure_key("SUPABASE_KEY")
+        self.supabase_url = load_secure_key("SUPABASE_ASYNC_URL")
+        self.supabase_key = load_secure_key("SUPABASE_ASYNC_KEY")
         self.supabase: Client = create_client(self.supabase_url, self.supabase_key)
         
         if self.model_type == "qwen":
@@ -307,6 +307,8 @@ class Querier:
         logger.info(f"Embedding {len(questions)} natural language queries natively...")
         
         if self.model_type == "qwen":
+            import os
+            os.environ["HF_TOKEN"] = load_secure_key("HF_TOKEN_READ_ONLY")
             from sentence_transformers import SentenceTransformer
             from transformers import BitsAndBytesConfig
             quantization_config = BitsAndBytesConfig(load_in_4bit=True)

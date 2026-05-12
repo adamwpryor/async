@@ -1,6 +1,7 @@
 {
   "query_type": "query_1_gap_detection",
-  "generated_at": "2026-05-11T15:36:04.362603",
+  "model_type": "google",
+  "generated_at": "2026-05-12T12:27:24.487545",
   "results": [
     {
       "node_a": "DP4",

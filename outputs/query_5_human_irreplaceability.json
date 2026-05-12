@@ -1,6 +1,7 @@
 {
   "query_type": "query_5_human_irreplaceability",
-  "generated_at": "2026-05-11T13:54:46.492402",
+  "model_type": "qwen",
+  "generated_at": "2026-05-12T12:26:17.439506",
   "results": [
     {
       "pattern_id": "DP3",

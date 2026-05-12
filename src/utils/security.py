@@ -1,8 +1,13 @@
 import os
 from dotenv import load_dotenv
 
-# Ensure environment variables are loaded
+# Ensure local environment variables are loaded
 load_dotenv()
+
+# Load user's global OS secrets
+global_secrets = os.path.expanduser("~/.bash_secrets")
+if os.path.exists(global_secrets):
+    load_dotenv(global_secrets)
 
 def load_secure_key(key_name: str) -> str:
     """Securely loads an API key or secret from environment variables.

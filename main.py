@@ -1,5 +1,9 @@
 import argparse
 import sys
+
+# Ensure environment variables (including HF_HOME and HF_TOKEN) are loaded FIRST
+from src.utils.security import load_secure_key
+
 from src.core.ingester import Ingester
 from src.core.querier import Querier
 from src.utils.logger import setup_logger

@@ -1,6 +1,7 @@
 {
   "query_type": "query_7_narrative_bridging",
-  "generated_at": "2026-05-11T13:54:46.509536",
+  "model_type": "qwen",
+  "generated_at": "2026-05-12T12:26:17.468661",
   "results": [
     {
       "narrative_section": "intro",
