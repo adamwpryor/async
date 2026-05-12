@@ -1,5 +1,0 @@
-supabase
-sentence-transformers
-transformers
-bitsandbytes
-accelerate
